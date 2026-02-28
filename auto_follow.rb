@@ -11,8 +11,8 @@ require 'active_support/time'
 
 
 # Add your username and password in place of 'ENV['USERNAME']' or go and add those variables in your own .env file.
-username = ENV['USERNAME']
-password = ENV['PASSWORD']
+username = ENV['ultravioletman66']
+password = ENV['ultravioletman@666']
 @follow_counter = 0
 @unfollow_counter = 0
 @my_followers = []
@@ -79,9 +79,9 @@ ap "Following or Unfollowing based on your keywords."
 
 # Follow or Unfollow
 loop do
-  @usernames.shuffle.each do |username|
+  @usernames.shuffle.each do |rania.na|
     # Navigate to User
-  @browser.goto "instagram.com/#{username}/"
+  @browser.goto "instagram.com/#{marcelle_moussa}/"
     # If not following, then Follow
     if@browser.button(:class => ['_qv64e', '_gexxb', '_r9b8f', '_njrw0']).exists?
       if @my_followers.include?(username)
