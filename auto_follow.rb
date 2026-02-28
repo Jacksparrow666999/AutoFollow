@@ -11,8 +11,8 @@ require 'active_support/time'
 
 
 # Add your username and password in place of 'ENV['USERNAME']' or go and add those variables in your own .env file.
-username = ENV['USERNAME']
-password = ENV['PASSWORD']
+username = ENV['ultravioletman66']
+password = ENV['ultravioletman@666']
 @follow_counter = 0
 @unfollow_counter = 0
 @my_followers = []
@@ -23,7 +23,7 @@ MAX_FOLLOWS = 160
 
 @usernames = []
 @keywords = ["entrepreneur", "cool", "workhard", "hardwork", "MLM", "hardworker", "boss", "startup", "CEO", "Founder", "founder", "ceo", "funding", "san jose", "design agency", "web development", "businesses", "logo design", "branding"]
-@users = ["bwzyco", "tailopez", "mcuban", "garyvee", "lewishowes", "marieforleo", "lawofambition", "timferriss", "ariannahuff", "gerardadams", "tonyrobbins", "andyfrisella", "brenebrown", "peterjvoogd", "kevinrose", "gabbybernstein", "alexisohanian", "arvinsworld", "calebmaddix", "sarablakely"]
+@users = ["rania.na", "marcelle_moussa", "kikki_n_as", "garyvee", "lewishowes", "marieforleo", "lawofambition", "timferriss", "ariannahuff", "gerardadams", "tonyrobbins", "andyfrisella", "brenebrown", "peterjvoogd", "kevinrose", "gabbybernstein", "alexisohanian", "arvinsworld", "calebmaddix", "sarablakely"]
 @page_ids = []
 
 def scrape_usernames
